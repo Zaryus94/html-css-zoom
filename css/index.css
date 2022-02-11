@@ -1,3 +1,5 @@
+/* Istructions */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -10,9 +12,15 @@ body{
 }
 
 header{
+    height: 65px;
     display: flex;
     justify-content: flex-end;
 }
+
+/* /Istructions */
+
+
+/* Header */
 
 .top_sw{
     text-align: center;
@@ -36,6 +44,28 @@ header{
     background-color: #4a4a4a;
 }
 
+/* /Header */
+
+
+/* Main */
+
+main{
+    padding: 0 50px 0 10px
+}
+
+
 .users{
     display: flex;
+    flex-flow: nowrap;
+    align-content: center;
+    justify-content: center;
 }
+
+
+.mic{
+    text-align: start;
+    position: relative;
+    transform: translate( 100%, 80%);
+}
+
+/* /Main */
